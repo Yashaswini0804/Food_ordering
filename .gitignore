@@ -1,12 +1,24 @@
-# Ignore everything
-*
+# Ignore node_modules everywhere
+node_modules/
 
-# But include the following
-!client/src/components/
-!client/src/screens/
-!client/src/App.js
-!client/src/index.js
-!models/
-!routes/
-!server.js
-!.gitignore
+# Ignore public folder inside client
+client/public/
+
+# Ignore specific files
+client/src/app.css
+client/src/app.text.js
+client/src/index.css
+client/src/index.js
+client/src/logo.svg
+client/src/reportWebVitals.js
+client/src/setup.Test.js
+
+# Ignore package-lock
+package-lock.json
+
+# Ignore environment files
+.env
+
+# Ignore backend files
+server.js
+db.js

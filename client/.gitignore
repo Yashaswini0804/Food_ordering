@@ -27,3 +27,16 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+node_modules/
+client/public/
+client/src/app.css
+client/src/app.text.js
+client/src/index.css
+client/src/index.js
+client/src/logo.svg
+client/src/reportWebVitals.js
+client/src/setup.Test.js
+package-lock.json
+.env
+server.js
+db.js

@@ -7,6 +7,7 @@ client/public/
 # Ignore specific files
 client/src/app.css
 client/src/app.text.js
+client/src/app.js
 client/src/index.css
 client/src/index.js
 client/src/logo.svg
